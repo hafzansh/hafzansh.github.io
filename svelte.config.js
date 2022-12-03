@@ -8,7 +8,10 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: '/build'
+			// assets: "/build"
+		}),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/hafzansh.github.io' : ''
 		}
