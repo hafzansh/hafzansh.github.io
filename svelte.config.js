@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: '/build'
+			pages: 'docs'
 			// assets: "/build"
 		}),
 		paths: {
